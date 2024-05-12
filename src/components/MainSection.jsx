@@ -41,18 +41,23 @@ export default function MainSection() {
     return (
         <main className="main-section ">
             <div className="left-part">
-                <h1 className="text-4xl font-bold tracking-tight text-indigo-800 sm:text-5xl"><a href="/">Tom Cat</a></h1>
-                <h2 className="mt-3 text-lg font-medium tracking-tight text-indigo-800 sm:text-xl">Web Developer</h2>
+                <h1 className="text-4xl font-bold tracking-tight text-[#3b3b3b] sm:text-5xl"><a href="/">Tom Cat</a></h1>
+                <h2 className="mt-3 text-lg  tracking-tight text-indigo-800 sm:text-xl text-green-500 font-bold">&#123;Web Developer&#125;</h2>
                 <p className="mt-4 max-w-xs leading-normal">I build pixel-perfect, engaging, and accessible digital experiences.</p>
 
                 <div className='navPoints mt-3'>
-                    <ul>
+                    <ul className="lg:h-60 h-auto">
                         <li  className={`font-bold text-base ${ aboutMeVisible ? 'secInView' : ''}`}>About</li>
                         <li  className={`font-bold text-base ${ projectsVisible ? 'secInView' : ''}`}>My Projects</li>
                         <li className='font-bold text-base'>My Social</li>
                         <li className='font-bold text-base'>Ongoing</li>
                         <li className='font-bold text-base'>Pinned Blogs</li>
                     </ul>
+
+                    <button class="bg-transparent hover:bg-green-500 text-stone-600 font-semibold hover:text-white py-2 px-4 border border-stone-600 hover:border-transparent rounded flex">
+  <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  <span>Download CV</span>
+</button>
                 </div>
             </div>
             <div className="right-part  overflow-y-auto h-4/5">
