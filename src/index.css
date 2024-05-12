@@ -4,17 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  color : #3b3b3b!important;
 }
+
 body{
   /* background: rgb(18, 34, 49); */
-  color: #fff;
+  color : #3b3b3b!important;
   font-family: monospace;
 }
 .main-section {
   display: flex;
   margin: 10px auto;
-  max-width: 1000px; /* Optional: Set a maximum width */
+  max-width: 1200px; /* Optional: Set a maximum width */
   position: relative; /* Establish a reference point for sticky positioning */
 }
 
