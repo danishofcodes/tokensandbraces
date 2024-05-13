@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +9,9 @@
 body{
   /* background: rgb(18, 34, 49); */
   color : #3b3b3b!important;
-  font-family: monospace;
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
 }
 .main-section {
   display: flex;
@@ -138,8 +140,7 @@ body{
   margin: 8px 0;
   border-radius: 10px;
   display: flex;
-  
-  height: max-content;
+  height: 150px;
 }
 .card-image{
   background-color: #464646;
@@ -152,9 +153,17 @@ body{
   padding: 20px;
   flex-shrink: 0;
   width: 40em;
-  flex: 1
+  flex: 1;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.card-image img{
+  height: 100%;
+  padding: 10px 10px;
+  width: 122px;
+}
 
 .card-details a {
   font-weight: bold;
@@ -183,6 +192,39 @@ body{
     margin-bottom: 0;
     padding: 5px!important;
   }
+
+  .navPoints ul li:active{
+    cursor: pointer;
+    background: color #801dff !important; ;
+    /* padding: 10px; */
+    border-radius: 2px;
+    color: #ffffff;
+    transform: scale(1.02);
+    transition: 0.2s;
+  
+  }
+
+  .card {
+      height: 300px;
+    flex-direction: column;
+}
+
+.card-image {
+  border-radius: 10px 10px 0px 0px;
+  padding: 3px;
+}
+
+.card-details {
+  width: 100%;
+ }
+ .navPoints ul li {
+  padding: 5px !important;
+}
+
+.navPoints ul li:hover:not(:active) {
+  transform: none;
+  transition: 0.2s;
+}
 }
 
 img{
@@ -191,16 +233,20 @@ img{
 }
 .navPoints ul li{
   margin-bottom: 5px;
-
+  padding-left: 15px;
 }
-.navPoints ul li:hover{
+.navPoints ul li:hover:not(:active){
   cursor: pointer;
-  background-color:#801DFF ;
-  padding: 10px;
+  /* background-color:#801DFF ; */
+  /* padding: 10px; */
   border-radius: 2px;
-  color: #fff!important;
+  color: #801DFF;
+  /* transform: scale(1.02); */
+  transition: 0.2s;
 
 }
+
+
 
 .rise:hover{
   transform: scale(1.03);
@@ -222,9 +268,25 @@ img{
   transform: translateY(0);
 } */
 
-.secInView{
-  background-color:#801DFF ;
+.active{
+  background: #801dff !important; ;
   padding: 10px;
   border-radius: 2px;
-  color: #fff!important;
+  color: #fff !important;;
+}
+
+.overlayNav{
+  position: fixed;
+  background: #f4f4f4;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index: 999;
+  font-size: 30px;
+}
+
+.optSocial:hover{
+  background-color: #801DFF;
+  color: #fff;
 }
