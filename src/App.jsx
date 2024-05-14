@@ -1,6 +1,8 @@
 import MainSection from './components/MainSection'
 import reactIcon from './assets/react.svg'
 import Navbar from './components/Navbar'
+import { BrowserRouter } from 'react-router-dom';
+import Footer from './components/Footer';
 function App() {
  
   const projects = [
@@ -25,13 +27,89 @@ function App() {
       githublink : 'https://github.com/danishofcodes/metrocityAQI'
     },
 
+    {
+      projectname: 'MetroCity-AQI',
+      description: 'Visualize Air Quality Index of 6 major Indian cities, Compare AQI, calculate yearly averages. Interactive graphs for Insightful analysis.',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      githublink : 'https://github.com/danishofcodes/metrocityAQI'
+    },
+
+    {
+      projectname: 'MetroCity-AQI',
+      description: 'Visualize Air Quality Index of 6 major Indian cities, Compare AQI, calculate yearly averages. Interactive graphs for Insightful analysis.',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      githublink : 'https://github.com/danishofcodes/metrocityAQI'
+    }
   ];
+
+
+ 
+  const blogs = [
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    },
+    {
+      title: 'Blog Example',
+      description: ' Blog with filters , easy search and add to cart for quick checkout ',
+      imgKey: reactIcon, // Replace with your image file name or URL
+      bloglink : 'https://github.com/danishofcodes/GameWyre'
+    }
+
+  ]
 
 
   return (
     <>
+     <BrowserRouter>
     <Navbar/>
-     <MainSection projects={projects}/> 
+     <MainSection projects={projects} blogs={blogs}/> 
+     {/* <Footer/> */}
+     </BrowserRouter>
      </>
   )
 }
