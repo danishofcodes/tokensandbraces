@@ -14,7 +14,7 @@ import PinnedBlog from './PinnedBlog';
 import Info from './Info';
 import Projects from './Projects';
 import { useLocation } from 'react-router-dom';
-
+import terminalgif from '../assets/record-hello.gif'
 export default function MainSection({ projects, blogs }) {
     const location = useLocation();
     //   const aboutMeRef = useRef();
@@ -66,9 +66,13 @@ export default function MainSection({ projects, blogs }) {
     return (
         <main className="main-section pt-5">
             <div className="left-part">
+
+               
                 <h1 className="text-4xl font-bold tracking-tight text-[#3b3b3b] sm:text-5xl"><a href="/">Tom Cat</a></h1>
                 <h2 className="mt-3 text-lg  tracking-tight sm:text-xl text-green-500 font-bold">&#123;Web Developer&#125; <FontAwesomeIcon icon={faCode} /></h2>
+                {/* <div className='terminalgif'><img src={terminalgif} alt="" srcset="" /></div> */}
                 <p className="mt-4 max-w-xs leading-normal">I build pixel-perfect, engaging, and accessible digital experiences.</p>
+          
 
                 <div className='navPoints mt-3' >
                     
