@@ -7,9 +7,9 @@ export default function Experience({item}) {
     <div className="pb-3">
       <div>
         <h4 className='font-bold text-lg text-[#801DFF]'>{item.company}</h4>
-        <p className="font-bold text-sm">{item.role}</p>
-        </div>
         <p className="font-bold text-md">{item.role}</p>
+        </div>
+        <p className="font-bold text-sm">{item.timeperiod}</p>
         <p>{item.description}</p>
         <div>
             <div>
