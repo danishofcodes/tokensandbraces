@@ -1,6 +1,7 @@
+import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faLink, faThumbTack } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-export default function BlogCard({title, desc, img , link}) {
+export default function BlogCard({title, desc,  link, sitename, isVideo}) {
   return (
     <div className="blogcard rise">
             {/* <div className="card-image">
@@ -14,7 +15,8 @@ export default function BlogCard({title, desc, img , link}) {
                 <h3 className='font-bold text-base'>{title}</h3>
                 <p className='mb-1'>{desc}</p>
                 </div>
-                <a href={link} ><FontAwesomeIcon icon={faLink} /> View on GitHub </a>
+               { isVideo ? <a href={link} ><FontAwesomeIcon icon={faYoutube} /> Watch On {sitename} </a> : <a href={link} ><FontAwesomeIcon icon={faLink} /> Read On {sitename} </a> }
+
             </div>
         </div>
   )
