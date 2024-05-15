@@ -1,5 +1,6 @@
 import React from 'react'
 import Experience from './Experience'
+import Tool from './Tool'
 export default function Info() {
 
 
@@ -26,6 +27,40 @@ export default function Info() {
     ]
 
 
+    const tools = [
+        {
+            name: 'React Js',
+            icon : 'icn',
+        },
+        {
+            name: 'Node',
+            icon : 'icn',
+        },
+        {
+            name: 'Express Js',
+            icon : 'icn',
+        },
+        {
+            name: 'Bootstrap',
+            icon : 'icn',
+        },
+        {
+            name: 'TailwindCSS',
+            icon : 'icn',
+        },
+        {
+            name: 'MongoDB',
+            icon : 'icn',
+        },
+        {
+            name: 'Mysql',
+            icon : 'icn',
+        }
+    
+    ]
+
+
+
     return (
         <>
             {/* ref={experienceRef}  */}
@@ -39,11 +74,26 @@ export default function Info() {
 
             <hr className='mb-5' />
 
+
+            <div className='myTools' >
+                <h4 className='font-bold text-base'>My Tools Of Choice</h4>
+                <div className='my-3 flex flex-wrap'>
+                {tools.map((tool, index) => ( <Tool key={index} tool={tool} />))}
+                </div>
+               
+               
+            </div>
+
+
+            <hr className='mb-5' />
+
             <div className='myExperienceSec' >
                 <h4 className='font-bold text-base'>What Do I Do?</h4>
-                <div className='mt-3'></div>
-               
+                <div className='mt-3'>
                 {experience.map((item, index) => ( <Experience key={index} item={item} />))}
+                
+                </div>
+               
                
             </div>
 
