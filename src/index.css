@@ -3,23 +3,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-}
 
-body{
+* {}
+
+body {
   /* background: rgb(18, 34, 49); */
-  color : #3b3b3b!important;
+  color: #3b3b3b !important;
   font-family: "Reddit Sans", sans-serif;
   font-optical-sizing: auto;
   scroll-behavior: smooth;
   /* background: rgb(255,255,255);
   background: linear-gradient(218deg, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 85%, rgba(189,189,189,1) 100%); */
 }
+
 .main-section {
   display: flex;
   margin: 10px auto;
-  max-width: 1200px; /* Optional: Set a maximum width */
-  position: relative; /* Establish a reference point for sticky positioning */
+  max-width: 1200px;
+  /* Optional: Set a maximum width */
+  position: relative;
+  /* Establish a reference point for sticky positioning */
 }
 
 .right-part {
@@ -31,35 +34,41 @@ body{
 
 .left-part {
   width: 35%;
-  position: sticky; /* Use sticky positioning */
-  top: 10px; /* Stick to the top of the viewport */
-  height: calc(100vh - 140px); /* Set an appropriate height (adjust as needed) */
+  position: sticky;
+  /* Use sticky positioning */
+  top: 10px;
+  /* Stick to the top of the viewport */
+  height: calc(100vh - 140px);
+  /* Set an appropriate height (adjust as needed) */
   transition: 0.3s;
   padding-left: 20px;
   /* border-right: 1px solid #ddd; */
 }
+
 @media screen and (max-width: 768px) {
   .main-section {
     flex-direction: column;
   }
 
   .right-part {
-    overflow-y: auto; 
+    overflow-y: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .right-part {
     overflow-y: hidden;
-    height: 100%; 
+    height: 100%;
     width: 100%;
     height: auto;
     padding: 10px 30px;
   }
 
-  .left-part{
-    position:unset; /* Use sticky positioning */
-    top: unset; /* Stick to the top of the viewport */
+  .left-part {
+    position: unset;
+    /* Use sticky positioning */
+    top: unset;
+    /* Stick to the top of the viewport */
     width: 100%;
     height: auto;
     padding: 10px 30px;
@@ -138,31 +147,34 @@ body{
   font-style: italic;
 }
 
-.card{
-  background-color: #ddd;
+.card {
+  background-color: #f3f3f3;
   margin: 8px 0;
   border-radius: 10px;
   display: flex;
   height: 150px;
 }
-.card-image{
+
+.card-image {
   background-color: #464646;
   border-radius: 10px 0 0 10px;
   flex-shrink: 0;
 
 }
-.card-details{
+
+.card-details {
   color: #464646;
   padding: 20px;
   flex-shrink: 0;
   width: 40em;
   flex: 1;
+  will-change: transform;
   align-items: start;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.card-image img{
+.card-image img {
   height: 100%;
   padding: 10px 10px;
   width: 122px;
@@ -172,17 +184,18 @@ body{
   font-weight: bold;
 }
 
-.card-details a:hover {
+/* .card-details a:hover {
   color: #000;
-}
+} */
 
 /* Optional: Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
   .card {
-    width: 100%; /* Make cards full width on mobile */
+    width: 100%;
+    /* Make cards full width on mobile */
   }
 
-  .navPoints ul li{
+  .navPoints ul li {
     display: inline-block;
     margin-bottom: 0;
     margin-right: 10px;
@@ -190,57 +203,68 @@ body{
     padding: 5px;
   }
 
-  .navPoints ul li:hover{
+  .navPoints ul li:hover {
     display: inline-block;
     margin-bottom: 0;
-    padding: 5px!important;
+    padding: 5px !important;
   }
 
-  .navPoints ul li:active{
+  .navPoints ul li:active {
     cursor: pointer;
-    background: color #801dff !important; ;
+    background: color #801dff !important;
+    ;
     /* padding: 10px; */
     border-radius: 2px;
     color: #ffffff;
     transform: scale(1.02);
     transition: 0.2s;
-  
+
   }
 
   .card {
-      height: 300px;
+    height: 300px;
     flex-direction: column;
-}
+  }
 
-.card-image {
-  border-radius: 10px 10px 0px 0px;
-  padding: 3px;
-}
+  .card-image {
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+  }
 
-.card-details {
-  width: 100%;
- }
+  .card-details {
+    width: 100%;
+  }
 
 
- .navPoints ul li {
-  padding: 5px !important;
-}
+  .navPoints ul li {
+    padding: 5px !important;
+  }
 
-.navPoints ul li:hover:not(:active) {
-  transform: none;
-  transition: 0.2s;
-}
+  .navPoints ul li:hover:not(:active) {
+    transform: none;
+    transition: 0.2s;
+  }
+
+  /* .terminalgif {
+    background-color: #3e3e3e;
+    height: 120px;
+    width: auto;
+    border-radius: 7px;
+    margin: 10px 0px;
+  }
+   */
 }
 
 /* img{
  height:  100px;
  padding: 10px;
 } */
-.navPoints ul li{
+.navPoints ul li {
   margin-bottom: 5px;
   padding-left: 15px;
 }
-.navPoints ul li:hover:not(:active){
+
+.navPoints ul li:hover:not(:active) {
   cursor: pointer;
   /* background-color:#801DFF ; */
   /* padding: 10px; */
@@ -253,13 +277,14 @@ body{
 
 
 
-.rise:hover{
-  transform: scale(1.03);
-  transition: 0.2s;
-  cursor:pointer;
+.rise:hover {
+  transform: scale(1.01);
+  transition: transform ease-in-out 0.2;
+  cursor: pointer;
+  font-smooth: always
 }
 
-.list li{
+.list li {
   list-style-type: circle;
   margin-bottom: 20px;
 }
@@ -267,20 +292,22 @@ body{
 /* .slide-in {
   opacity:1;
   transform: translateY(-20px); /* Adjust this value for desired distance */
-  /* transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+/* transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
  .slide-in.in-view {
   opacity: 1;
   transform: translateY(0);
 } */
 
-.active{
-  background: #801dff !important; ;
+.active {
+  background: #801dff !important;
+  ;
   padding: 10px;
   border-radius: 2px;
-  color: #fff !important;;
+  color: #fff !important;
+  ;
 }
 
-.overlayNav{
+.overlayNav {
   position: fixed;
   background: #f4f4f4;
   height: 100%;
@@ -291,34 +318,40 @@ body{
   font-size: 30px;
 }
 
-.optSocial:hover{
+.optSocial:hover {
   background-color: #801DFF;
   color: #fff;
 }
 
 
-.blogcard{
-  background-color: #ddd;
-  margin: 8px 0;
+.blogcard {
+  background-color: #ffedda;
   display: flex;
-  height: 190px;
+  height: 205px;
   width: 350px;
+  border-radius: 7px;
 }
 
-.blogpin{
-  border-bottom: 1px solid #8b8b8b;
-    width: 100%;
-    margin-bottom: 4px;
-    padding: 2px 0px;
-    border-style: dashed;
+.blogpin {
+  border-bottom: 1px solid #f9b66f;
+  width: 100%;
+  margin-bottom: 4px;
+  padding: 2px 0px;
+  border-style: dashed;
 }
 
-.blogcard:hover{
+.blogcard:hover {
   background: #f3eaff;
   color: #4d4d4d;
 }
 
-.pill{
+.blogcard:hover .blogpin {
+  border-bottom: 1px solid #bc89ff;
+  border-style: dashed;
+
+}
+
+.pill {
   background-color: #e7e7e7;
   color: #595959;
   margin-right: 5px;
@@ -335,17 +368,17 @@ body{
   background-color: #801dff;
   color: #ffff;
 } */
-
-.terminalgif{
-  background-color: #3b3b3b;
-  height: 145px;
-  width: 70%;
+/* 
+.terminalgif {
+  background-color: #3e3e3e;
+  height: 160px;
+  width: 160;
   border-radius: 7px;
   margin: 10px 0px;
-}
+} */
 
-.toolofchoice-card{
-  background-color: #dedede;
+.toolofchoice-card {
+  /* background-color: #dedede; */
   padding: 4px 8px 4px 4px;
   margin: 2px;
   border-radius: 20px;
@@ -355,13 +388,32 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-   
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: none;
+  /* Remove initial box-shadow if present */
+  transition: transform 0.1s ease-in-out;
+  /* Smooth transition for scale */
+  margin: 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+  /* Optional subtle shadow on hover */
+
 }
 
-.iconspace{
+.toolofchoice-card:hover {
+  background-color: #ffffff;
+  /* background-color: #f3eaff; */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  transform: scale(1.07);
+  /* Slightly smaller scale for a subtle hover effect */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+  /* Optional subtle shadow on hover */
+}
+
+/* .iconspace{
   background-color: #8d8d8d;
   height: 20px;
   width: 20px;
   border-radius: 20px;
   display: inline-block;
-}
+} */
