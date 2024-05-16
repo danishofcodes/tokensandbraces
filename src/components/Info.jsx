@@ -1,6 +1,26 @@
 import React from 'react'
 import Experience from './Experience'
 import Tool from './Tool'
+import { faBootstrap, faGithub, faNodeJs, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
+
+import react from '../assets/icons/ReactJs.png'
+import postman from '../assets/icons/Postman.png'
+import node from '../assets/icons/Node.png'
+import vscode from '../assets/icons/VSCode.png'
+import JavaScript from '../assets/icons/javascript.png'
+import jQuery from '../assets/icons/jquery.png'
+import express from '../assets/icons/express.png'
+import npm from '../assets/icons/npm.png'
+import bootstrap from '../assets/icons/bootstrap.png'
+import tailwind from '../assets/icons/tailwind.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
+
 export default function Info() {
 
 
@@ -8,19 +28,19 @@ export default function Info() {
         {
             company: 'Genius Consultants Ltd.',
             role: 'Web Developer',
-            timeperiod:"December 2022 - Present",
+            timeperiod: "December 2022 - Present",
             description: 'As a Front-End Developer I leveraged my skills in HTML5, CSS3, my love JavaScript, React.js, Bootstrap, Tailwind CSS, and Figma to craft user-centric web experiences. Prioritizing user needs through in-depth research, collaborate effectively with cross-functional teams in Agile environments, and deliver exceptional digital interfaces through rapid iteration based on feedback. ',
             responisbilities: ['Design & Develop Frontend', 'Maintain Frontend Of Legacy Projects', 'Create Features & Components', 'Fix UI Bugs', 'UI/UX', 'JavaScript', 'JQuery', 'Bootstrap', 'Figma', 'ReactJS']
         },
 
 
-       
-        
+
+
 
         {
             company: 'NxtAspect',
             role: 'PHP Developer',
-            timeperiod:"June 2022 - October 2022",
+            timeperiod: "June 2022 - October 2022",
             description: 'In my internship, I developed backend functionality using PHP. I also actively tested the application to identify and report bugs, ensuring a smooth user experience.',
             responisbilities: ['Write PHP Codes', 'Report Bugs']
         },
@@ -30,33 +50,44 @@ export default function Info() {
     const tools = [
         {
             name: 'React Js',
-            icon : 'icn',
+            icon: react
+        },
+        {
+            name: 'JQuery',
+            icon: jQuery
         },
         {
             name: 'Node',
-            icon : 'icn',
+            icon: node
         },
         {
-            name: 'Express Js',
-            icon : 'icn',
+            name: 'Express',
+            icon: express
+        },
+        {
+            name: 'JavaScript',
+            icon: JavaScript
+        },
+        {
+            name: 'Tailwind',
+            icon: tailwind
         },
         {
             name: 'Bootstrap',
-            icon : 'icn',
+            icon: bootstrap
         },
         {
-            name: 'TailwindCSS',
-            icon : 'icn',
+            name: 'VSCode',
+            icon: vscode
         },
         {
-            name: 'MongoDB',
-            icon : 'icn',
+            name: 'Postman',
+            icon: postman
         },
         {
-            name: 'Mysql',
-            icon : 'icn',
+            name: 'Npm',
+            icon: npm
         }
-    
     ]
 
 
@@ -76,25 +107,18 @@ export default function Info() {
 
 
             <div className='myTools' >
-                <h4 className='font-bold text-base'>My Tools Of Choice</h4>
-                <div className='my-3 flex flex-wrap'>
-                {tools.map((tool, index) => ( <Tool key={index} tool={tool} />))}
+                <h4 className='font-bold text-xl'>My Favorite Tools <FontAwesomeIcon className="text-red-400" icon={faHeart} /></h4>
+                <div className='my-3 flex flex-wrap lg:gap-3 sm:gap-1'>
+                    {tools.map((tool, index) => (<Tool key={index} tool={tool} />))}
                 </div>
-               
-               
             </div>
-
-
             <hr className='mb-5' />
 
             <div className='myExperienceSec' >
-                <h4 className='font-bold text-base'>What Do I Do?</h4>
+                <h4 className='font-bold text-base '>What Do I Do?</h4>
                 <div className='mt-3'>
-                {experience.map((item, index) => ( <Experience key={index} item={item} />))}
-                
+                    {experience.map((item, index) => (<Experience key={index} item={item} />))}
                 </div>
-               
-               
             </div>
 
         </>
