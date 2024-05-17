@@ -417,3 +417,10 @@ body {
   border-radius: 20px;
   display: inline-block;
 } */
+
+
+::selection {
+  color: #ebf8f1;
+  background: #2cba6c;
+  background-color: #801dff;
+}
