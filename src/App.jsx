@@ -49,7 +49,7 @@ function App() {
 
 
 
-  const blogs = [
+  const posts = [
     {
       title: 'CS50',
       description: "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.",
@@ -121,7 +121,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <MainSection projects={projects} blogs={blogs} />
+        <MainSection projects={projects} posts={posts} />
         {/* <Footer/> */}
       </BrowserRouter>
     </>
