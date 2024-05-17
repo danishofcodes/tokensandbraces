@@ -34,16 +34,6 @@ export default function Info() {
         },
 
 
-
-
-
-        {
-            company: 'NxtAspect',
-            role: 'PHP Developer',
-            timeperiod: "June 2022 - October 2022",
-            description: 'In my internship, I developed backend functionality using PHP. I also actively tested the application to identify and report bugs, ensuring a smooth user experience.',
-            responisbilities: ['Write PHP Codes', 'Report Bugs']
-        },
     ]
 
 
