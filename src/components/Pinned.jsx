@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BlogCard from './BlogCard'
 
 export default function Pinned({ posts }) {

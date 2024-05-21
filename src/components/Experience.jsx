@@ -13,8 +13,8 @@ export default function Experience({ item }) {
       <p>{item.description}</p>
       <div>
         <div>
-          {item.responisbilities.map((responsibility) => {
-            return <span className="pill">{responsibility} </span>
+          {item.responisbilities.map((responsibility, index) => {
+            return <span key={index} className="pill">{responsibility} </span>
           })}
         </div>
       </div>
