@@ -424,3 +424,18 @@ body {
   background: #2cba6c;
   background-color: #801dff;
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeUpanimate {
+  animation: fadeUp 0.3s ease-in-out; 
+}

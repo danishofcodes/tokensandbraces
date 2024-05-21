@@ -81,11 +81,13 @@ export default function Info() {
     ]
 
 
+    
+
 
     return (
         <>
             {/* ref={experienceRef}  */}
-            <div className='aboutmeSec mb-4' id="allaboutme">
+            <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
                 <p><b style={{ fontSize: "20px" }}>Back in 2012, I decided</b> to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and <b>web development</b>. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a huge corporation, and a digital product studio.
                     My main focus these days is building accessible user interfaces for our customers at Klaviyo. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything.
@@ -96,7 +98,7 @@ export default function Info() {
             <hr className='mb-5' />
 
 
-            <div className='myTools' >
+            <div className='myTools fadeUpanimate' >
                 <h4 className='font-bold text-xl'>My Favorite Tools <FontAwesomeIcon className="text-red-400" icon={faHeart} /></h4>
                 <div className='my-3 flex flex-wrap lg:gap-3 sm:gap-1'>
                     {tools.map((tool, index) => (<Tool key={index} tool={tool} />))}
@@ -104,7 +106,7 @@ export default function Info() {
             </div>
             <hr className='mb-5' />
 
-            <div className='myExperienceSec' >
+            <div className='myExperienceSec fadeUpanimate' >
                 <h4 className='font-bold text-base '>What Do I Do?</h4>
                 <div className='mt-3'>
                     {experience.map((item, index) => (<Experience key={index} item={item} />))}

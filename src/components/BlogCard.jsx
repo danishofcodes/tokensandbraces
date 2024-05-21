@@ -3,7 +3,7 @@ import { faLink, faThumbTack } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function BlogCard({ title, desc, link, sitename, isVideo }) {
   return (
-    <div className="blogcard rise">
+    <div className="blogcard rise fadeUpanimate">
       {/* <div className="card-image">
                 <img src={img} alt="Image description" />
             </div> */}

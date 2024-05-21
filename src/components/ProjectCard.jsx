@@ -5,7 +5,7 @@ import { faChrome } from "@fortawesome/free-brands-svg-icons";
 export default function ProjectCard({ title, desc, img, link, view }) {
 
     return (
-        <div className="card rise">
+        <div className="card rise fadeUpanimate">
             <div className="card-image">
                 <img src={img} alt="Image description" />
             </div>
