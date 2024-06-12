@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faAt, faBars, faClose, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faBars, faClose, faEnvelope, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { faL } from '@fortawesome/free-solid-svg-icons/faL';
 
@@ -12,8 +12,8 @@ export default function Navbar() {
   }
   return (
     <nav className="flex items-center justify-between max-w-8xl mx-auto px-4 py-4 bg-neutral-100 h-16 lg:px-8">
-      <div className="text-slate-700 dark:text-slate-200 text-2xl font-bold leading-6 font-semibold">
-       Port:1998
+      <div className="text-slate-700 dark:text-slate-200 text-md  leading-6 font-semibold">
+       <FontAwesomeIcon icon={faUserAstronaut} className='text-2xl '/> Welcome to my corner of the web!
       </div>
       <div className="hidden  lg:flex items-center space-x-4">
         <a href="https://github.com/danishofcodes" className="text-slate-700 dark:text-slate-200 text-sm leading-6 font-semibold lg:flex items-center hover:text-[#801DFF] "><FontAwesomeIcon icon={faGithub} style={{ fontSize: '25px' }} /></a>

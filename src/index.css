@@ -153,13 +153,18 @@ body {
   border-radius: 10px;
   display: flex;
   height: 150px;
+  
 }
 
 .card-image {
-  background-color: #464646;
+  /* background-color: #464646; */
   border-radius: 10px 0 0 10px;
   flex-shrink: 0;
-
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  min-width: 5em;
+  justify-content: center;
 }
 
 .card-details {
@@ -178,6 +183,7 @@ body {
   height: 100%;
   padding: 10px 10px;
   width: 122px;
+  
 }
 
 .card-details a {
@@ -225,11 +231,10 @@ body {
     height: 300px;
     flex-direction: column;
   }
-
   .card-image {
     border-radius: 10px 10px 0px 0px;
-    padding: 3px;
-  }
+    padding: 12px;
+}
 
   .card-details {
     width: 100%;
@@ -274,14 +279,17 @@ body {
   transition: 0.2s;
 
 }
-
-
+/* 
+a:visited{
+  text-decoration: none;
+  -moz-text-decoration: none;
+} */
 
 .rise:hover {
   transform: scale(1.01);
   transition: transform ease-in-out 0.2;
   cursor: pointer;
-  font-smooth: always
+  font-smooth: always;
 }
 
 .list li {
@@ -299,9 +307,13 @@ body {
 } */
 
 .active {
-  background: #801dff !important;
-  ;
-  padding: 10px;
+background: #801dff !important;
+  /* background: linear-gradient(272deg, rgb(13 26 60) 0%, rgb(72 29 187) 100%); */
+  /* background:linear-gradient(272deg, rgb(38 190 119) 0%, rgb(72 29 187) 100%);
+   */
+/* background: linear-gradient(218deg, rgba(9,217,120,1) 0%, rgba(19,172,137,1) 22%, rgba(36,88,168,1) 68%, rgba(44,51,182,1) 84%, rgba(55,1,200,1) 100%); */
+/* background: linear-gradient(272deg, rgb(21 26 78) 0%, rgb(72 29 187) 100%);  */
+padding: 10px;
   border-radius: 2px;
   color: #fff !important;
   ;
