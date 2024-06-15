@@ -17,52 +17,6 @@ import { useLocation } from 'react-router-dom';
 import terminalgif from '../assets/record-hello.gif'
 export default function MainSection({ projects, posts }) {
     const location = useLocation();
-    //   const aboutMeRef = useRef();
-    //   const experienceRef = useRef();
-    //   const projectsRef = useRef();
-    //  const [projectsVisible , setprojectsVisible] = useState('');
-    //  const [experienceVisible , setexperienceVisible] = useState('');
-
-    // const experienceRef = useRef(null);
-    // const projectsRef = useRef(null);
-
-    //  const { ref : aboutMeRef, inView : elemVisible } = useInView();
-    //  const { ref : experienceRef, inView : elemVisible } = useInView();
-    // const { ref: experienceRef, inView: aboutMeVisible } = useInView({ threshold: 1 });
-    // const { ref: projectsRef, inView: projectsVisible } = useInView({ threshold: 1 });
-
-
-
-
-    //    function handleScollToVIew(itemId){
-    //     if(itemId = 1){
-    //         experienceRef.current.scrollIntoView({ behavior: "smooth" });
-
-    //     }
-    //     else if(itemId = 2){
-    //     projectsRef.current.scrollIntoView({ behavior: "smooth" });
-
-    // }
-    //     };
-
-
-
-    // const projects = Array(4).fill(null); // Create an array with 8 null elements
-    // console.log('entry', elemVisible);
-
-    // useEffect(()=>{
-    // //   console.log('about Me Ref', aboutMeRef.current)
-    // //   console.log('Exp Ref', experienceRef.current)
-    // //   console.log('Projects Ref', projectsRef.current)
-
-    //   const observer = new IntersectionObserver((entries)=>{
-    //     const entry = entries[0];
-    //     setElemVisible(entry.isIntersecting)
-    //   })
-
-    //   observer.observe(projectsRef.current)
-
-    // }, [])
 
     return (
         <main className="main-section pt-5">
@@ -83,7 +37,7 @@ export default function MainSection({ projects, posts }) {
                     <ul className="lg:h-48 h-auto ">
                         {/* ${aboutMeVisible ? 'active' : ''}` */}
                         {/* ${projectsVisible ? 'active' : ''}` className="font-bold text-base" */}
-                        <Link to="/" >  <li className={location.pathname === "/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
+                        <Link to="/tokensandbraces/" >  <li className={location.pathname === "/tokensandbraces/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
                         <Link to="/Projects">    <li className={location.pathname === "/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />My Projects</li></Link>
                         {/* <Link to="/Ongoing"><li className={location.pathname === "/Ongoing" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faSpinner} className='me-2' />Ongoing</li></Link> */}
                         <Link to="/Pinned"><li className={location.pathname === "/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
