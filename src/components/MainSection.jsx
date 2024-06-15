@@ -44,7 +44,7 @@ export default function MainSection({ projects, posts }) {
             </div>
             <div className="right-part ">
                 <Routes>
-                    <Route path="/" element={<Info />} />
+                    <Route path="/tokensandbraces/" element={<Info />} />
                     <Route path="/Projects" element={<Projects projects={projects} />} />
                     {/* <Route path="/Ongoing" element={<Ongoing />} /> */}
                     <Route path="/Pinned" element={<Pinned posts={posts} />} />
