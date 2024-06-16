@@ -30,11 +30,17 @@ export default function Navbar() {
         <div className='flex justify-end items-center p-3'>
           <button className="h-10 w-10" onClick={openCollapsibleNav}><FontAwesomeIcon icon={faClose} style={{ fontSize: "35px" }} /></button>
         </div>
+        <a href="https://github.com/danishofcodes" target="_blank">
         <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faGithub} style={{ fontSize: "30px" }} className='me-2' />Github</div>
+          </a>
         <hr />
+        <a href="https://www.linkedin.com/in/abdul-danish-38b5942a7" target="_blank">
+        <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "25px" }} className='me-2' />LinkedIn</div>          
+          </a>
+        <hr />
+        <a href="mailto:heyabduldanish@gmail.com" target="_blank" >
         <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faEnvelope} style={{ fontSize: "25px" }} className='me-2' />Email</div>
-        <hr />
-        <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "25px" }} className='me-2' />LinkedIn</div>
+        </a>
       </div>
 
 

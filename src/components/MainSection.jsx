@@ -19,7 +19,7 @@ export default function MainSection({ projects, posts }) {
                     <div className='terminaltype'></div>
                 </div>
 
-                <h1 className="text-4xl font-bold tracking-tight text-[#3b3b3b] sm:text-5xl"><a href="/">Hi, I am Danish 👋</a></h1>
+                <h1 className="text-4xl font-bold tracking-tight text-[#3b3b3b] sm:text-5xl">Hi, I am Danish 👋</h1>
                 <h2 className="mt-3 text-lg  tracking-tight sm:text-xl text-green-500 font-bold">&#123;Web Developer&#125; <FontAwesomeIcon icon={faCode} /></h2>
                 <p className="mt-4 max-w-xs leading-normal">I build pixel-perfect, engaging, and accessible digital experiences.</p>
 
@@ -29,9 +29,9 @@ export default function MainSection({ projects, posts }) {
                         {/* ${aboutMeVisible ? 'active' : ''}` */}
                         {/* ${projectsVisible ? 'active' : ''}` className="font-bold text-base" */}
                         <Link to="/tokensandbraces/" >  <li className={location.pathname === "/tokensandbraces/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
-                        <Link to="/Projects">    <li className={location.pathname === "/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />My Projects</li></Link>
+                        <Link to="/tokensandbraces/Projects">    <li className={location.pathname === "/tokensandbraces/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />Projects</li></Link>
                         {/* <Link to="/Ongoing"><li className={location.pathname === "/Ongoing" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faSpinner} className='me-2' />Ongoing</li></Link> */}
-                        <Link to="/Pinned"><li className={location.pathname === "/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
+                        <Link to="/tokensandbraces/Pinned"><li className={location.pathname === "/tokensandbraces/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
                     </ul>
 
                     <div className="mt-1" >
@@ -45,9 +45,9 @@ export default function MainSection({ projects, posts }) {
             <div className="right-part ">
                 <Routes>
                     <Route path="/tokensandbraces/" element={<Info />} />
-                    <Route path="/Projects" element={<Projects projects={projects} />} />
+                    <Route path="/tokensandbraces/Projects" element={<Projects projects={projects} />} />
                     {/* <Route path="/Ongoing" element={<Ongoing />} /> */}
-                    <Route path="/Pinned" element={<Pinned posts={posts} />} />
+                    <Route path="/tokensandbraces/Pinned" element={<Pinned posts={posts} />} />
                 </Routes>
             </div>
         </main>

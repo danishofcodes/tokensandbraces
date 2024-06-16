@@ -299,7 +299,7 @@ body {
 .blogcard {
   background-color: #ffedda;
   display: flex;
-  height: 205px;
+  height : auto;
   width: 350px;
   border-radius: 7px;
 }
