@@ -5,7 +5,7 @@ import { faThumbTack } from '@fortawesome/free-solid-svg-icons';
 import { faCodeFork } from '@fortawesome/free-solid-svg-icons';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Routes, Route, Link, useLocation, Switvh } from 'react-router-dom';
 import Pinned from './Pinned';
 import Info from './Info';
 import Projects from './Projects';
@@ -28,10 +28,10 @@ export default function MainSection({ projects, posts }) {
                     <ul className="lg:h-48 h-auto ">
                         {/* ${aboutMeVisible ? 'active' : ''}` */}
                         {/* ${projectsVisible ? 'active' : ''}` className="font-bold text-base" */}
-                        <Link to="/tokensandbraces/" >  <li className={location.pathname === "/tokensandbraces/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
-                        <Link to="/tokensandbraces/Projects">    <li className={location.pathname === "/tokensandbraces/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />Projects</li></Link>
+                        <Link to="/" >  <li className={location.pathname === "/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
+                        <Link to="/Projects">    <li className={location.pathname === "/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />Projects</li></Link>
                         {/* <Link to="/Ongoing"><li className={location.pathname === "/Ongoing" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faSpinner} className='me-2' />Ongoing</li></Link> */}
-                        <Link to="/tokensandbraces/Pinned"><li className={location.pathname === "/tokensandbraces/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
+                        <Link to="/Pinned"><li className={location.pathname === "/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
                     </ul>
 
                     <div className="mt-1" >
@@ -44,10 +44,11 @@ export default function MainSection({ projects, posts }) {
             </div>
             <div className="right-part ">
                 <Routes>
-                    <Route path="/tokensandbraces/" element={<Info />} />
-                    <Route path="/tokensandbraces/Projects" element={<Projects projects={projects} />} />
+
+                    <Route path="/" element={<Info />} />
+                    <Route path="/Projects" element={<Projects projects={projects} />} />
                     {/* <Route path="/Ongoing" element={<Ongoing />} /> */}
-                    <Route path="/tokensandbraces/Pinned" element={<Pinned posts={posts} />} />
+                    <Route path="/Pinned" element={<Pinned posts={posts} />} />
                 </Routes>
             </div>
         </main>
