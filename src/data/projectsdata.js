@@ -13,11 +13,11 @@ export const projects = [
     },
     
     {
-      projectname: 'SurveyBubble : User Feedback Surveyor',
-      description: 'Feedback Surveyor: Create and manage feedback surveys, Made with React JS And TailwindCSS. ',
+      projectname: 'Feedback Surveyor',
+      description: 'Create and manage feedback surveys with interactive feedback survey forms, Made with React JS And TailwindCSS. ',
       imgKey: faPoll, // Replace with your image file name or URL
-      githublink: 'https://github.com/danishofcodes/surveyfeeds',
-      viewonbrowser: 'https://danishofcodes.github.io/surveyfeeds/'
+      githublink: 'https://github.com/danishofcodes/feedbacksurveyor',
+      viewonbrowser: 'https://danishofcodes.github.io/feedbacksurveyor/'
     },
 
     {
