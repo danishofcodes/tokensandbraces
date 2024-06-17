@@ -16,8 +16,8 @@ export const projects = [
       projectname: 'SurveyBubble : User Feedback Surveyor',
       description: 'Feedback Surveyor: Create and manage feedback surveys, Made with React JS And TailwindCSS. ',
       imgKey: faPoll, // Replace with your image file name or URL
-      githublink: 'https://github.com/danishofcodes/metrocityAQI',
-      viewonbrowser: 'https://danishofcodes.github.io/metrocityAQI/'
+      githublink: 'https://github.com/danishofcodes/surveyfeeds',
+      viewonbrowser: 'https://danishofcodes.github.io/surveyfeeds/'
     },
 
     {
