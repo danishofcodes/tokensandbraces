@@ -5,14 +5,6 @@ import { faCalendarCheck, faCode, faKey, faListCheck, faLock, faPoll, faWind } f
 export const projects = [
   
     {
-      projectname: 'GameWyre ',
-      description: 'GameWyre An E-commerce Platform for Gaming Products (Made with React JS), with filters , easy search and add to cart for quick checkout ',
-      imgKey: faGamepad, // Replace with your image file name or URL,
-      githublink: 'https://github.com/danishofcodes/GamerWyre',
-      viewonbrowser: 'https://danishofcodes.github.io/GamerWyre/'
-    },
-    
-    {
       projectname: 'Feedback Surveyor',
       description: 'Create and manage feedback surveys with interactive feedback survey forms, Made with React JS And TailwindCSS. ',
       imgKey: faPoll, // Replace with your image file name or URL
@@ -27,6 +19,13 @@ export const projects = [
       githublink: 'https://github.com/danishofcodes/FormsAndValidation',
       viewonbrowser: 'https://danishofcodes.github.io/FormsAndValidation/'
 
+    },
+    {
+      projectname: 'GameWyre ',
+      description: 'GameWyre An E-commerce Platform for Gaming Products (Made with React JS), with filters , easy search and add to cart for quick checkout ',
+      imgKey: faGamepad, // Replace with your image file name or URL,
+      githublink: 'https://github.com/danishofcodes/GamerWyre',
+      viewonbrowser: 'https://danishofcodes.github.io/GamerWyre/'
     },
 
     {
