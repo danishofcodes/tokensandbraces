@@ -5,7 +5,7 @@ import { faThumbTack } from '@fortawesome/free-solid-svg-icons';
 import { faCodeFork } from '@fortawesome/free-solid-svg-icons';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { Routes, Route, Link, useLocation, Switvh } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Pinned from './Pinned';
 import Info from './Info';
 import Projects from './Projects';
@@ -21,7 +21,7 @@ export default function MainSection({ projects, posts }) {
 
                 <h1 className="text-4xl font-bold tracking-tight text-[#3b3b3b] sm:text-5xl">Hi, I am Danish 👋</h1>
                 <h2 className="mt-3 text-lg  tracking-tight sm:text-xl text-green-500 font-bold">&#123;Web Developer&#125; <FontAwesomeIcon icon={faCode} /></h2>
-                <p className="mt-4 max-w-xs leading-normal">I build pixel-perfect, engaging, and accessible digital experiences.</p>
+                <p className="mt-4 max-w-xs leading-normal">Creating enhanced digital interactions and experiences, alongside having a good cup of coffee and a cheeze sandwich!</p>
 
 
                 <div className='navPoints mt-3' >

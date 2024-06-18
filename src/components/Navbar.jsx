@@ -12,8 +12,8 @@ export default function Navbar() {
   }
   return (
     <nav className="flex items-center justify-between max-w-8xl mx-auto px-4 py-4 bg-neutral-100 h-16 lg:px-8">
-      <div className="text-slate-700 dark:text-slate-200 text-md  leading-6 font-semibold">
-       <FontAwesomeIcon icon={faUserAstronaut} className='text-2xl '/> Welcome to my corner of the web!
+      <div className="text-slate-700 text-md  leading-6 font-semibold">
+       <FontAwesomeIcon icon={faUserAstronaut} className='text-2xl '/> Welcome Buddy!
       </div>
       <div className="hidden  lg:flex items-center space-x-4">
         <a href="https://github.com/danishofcodes" target="_blank" className="text-slate-700 dark:text-slate-200 text-sm leading-6 font-semibold lg:flex items-center hover:text-[#801DFF] "><FontAwesomeIcon icon={faGithub} style={{ fontSize: '25px' }} /></a>
