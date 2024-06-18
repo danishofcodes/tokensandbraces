@@ -5,11 +5,11 @@ import { faCalendarCheck, faCode, faKey, faListCheck, faLock, faPoll, faWind } f
 export const projects = [
   
     {
-      projectname: 'Feedback Surveyor',
+      projectname: 'Survey Bubble',
       description: 'Create and manage feedback surveys with interactive feedback survey forms, Made with React JS And TailwindCSS. ',
       imgKey: faPoll, // Replace with your image file name or URL
-      githublink: 'https://github.com/danishofcodes/feedbacksurveyor',
-      viewonbrowser: 'https://danishofcodes.github.io/feedbacksurveyor/'
+      githublink: 'https://github.com/danishofcodes/SurveyBubble',
+      viewonbrowser: 'https://danishofcodes.github.io/SurveyBubble/'
     },
 
     {
