@@ -1,8 +1,6 @@
 import React from 'react'
 import Experience from './Experience'
 import Tool from './Tool'
-import { faBootstrap, faGithub, faNodeJs, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
-
 import react from '../assets/icons/ReactJs.png'
 import postman from '../assets/icons/Postman.png'
 import node from '../assets/icons/Node.png'
@@ -13,16 +11,13 @@ import express from '../assets/icons/express.png'
 import npm from '../assets/icons/npm.png'
 import bootstrap from '../assets/icons/bootstrap.png'
 import tailwind from '../assets/icons/tailwind.png'
+import java from '../assets/icons/java2.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 
-
-
-
 export default function Info() {
-
 
     const experience = [
         {
@@ -35,7 +30,6 @@ export default function Info() {
 
 
     ]
-
 
     const tools = [
         {
@@ -59,6 +53,10 @@ export default function Info() {
             icon: JavaScript
         },
         {
+            name: 'Java',
+            icon: java
+        },
+        {
             name: 'Tailwind',
             icon: tailwind
         },
@@ -79,11 +77,6 @@ export default function Info() {
             icon: npm
         }
     ]
-
-
-    
-
-
     return (
         <>
             {/* ref={experienceRef}  */}
