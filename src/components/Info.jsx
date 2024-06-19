@@ -87,6 +87,7 @@ export default function Info() {
                     <br/>
                     <br/>
                     <b style={{ fontSize: "16px" }}>Currently,</b> I'm delving deeper into the backend, creating utility-focused web apps as personal projects. My goal? Mastery in crafting stunning frontend and robust backend solutions for all users.
+                    <br/>
                     Off-screen, I devour books, geek out over superhero sagas (MCU or DC, no bias!), and indulge in comfort food: pizza, burgers, and biryani.</p>
             </div>
 
