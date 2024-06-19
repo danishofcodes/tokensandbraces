@@ -83,13 +83,9 @@ export default function Info() {
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
                 <p><b style={{ fontSize: "20px" }}>A dusty Pentium 3 in 2008</b> became my gateway to a digital wonderland. It wasn't games that captivated me, but the artistic potential. Soon, I was sketching on that clunky machine, sparking a lifelong fascination with the world of computers.
-
                In school, I practically lived in the computer lab, often extending my stays by convincing teachers I was absorbed in learning — when really, I was diving into new technologies
-
 Fast forward, and I'm a frontend developer, crafting user interfaces that are as sleek as they are functional. But my passion lies at the crossroads of design and engineering: building software that's beautiful on the outside and rock-solid within.
-
 Currently, I'm delving deeper into the backend, creating utility and productivity web apps that empower users. My ultimate goal? To become a full-stack developer, a master of both the front and back-end, wielding code with the finesse of a digital sculptor.
-
 But my life isn't all ones and zeros. When I'm not coding, I'm lost in a good book, catching up on the latest superhero sagas (MCU or DC, no bias here!), or indulging in the holy trinity of comfort food: pizza, burgers, and biryani.
                 </p>
             </div>
