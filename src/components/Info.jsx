@@ -82,9 +82,15 @@ export default function Info() {
             {/* ref={experienceRef}  */}
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
-                <p><b style={{ fontSize: "20px" }}>Back in 2012, I decided</b> to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and <b>web development</b>. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a huge corporation, and a digital product studio.
-                    My main focus these days is building accessible user interfaces for our customers at Klaviyo. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything.
-                    When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my <b>wife and two cats</b>, or running around Hyrule searching for Korok seeds
+                <p><b style={{ fontSize: "20px" }}>A dusty Pentium 3 in 2008</b> became my gateway to a digital wonderland. It wasn't games that captivated me, but the artistic potential. Soon, I was sketching on that clunky machine, sparking a lifelong fascination with the world of computers.
+
+               In school, I practically lived in the computer lab, often extending my stays by convincing teachers I was absorbed in learning — when really, I was diving into new technologies
+
+Fast forward, and I'm a frontend developer, crafting user interfaces that are as sleek as they are functional. But my passion lies at the crossroads of design and engineering: building software that's beautiful on the outside and rock-solid within.
+
+Currently, I'm delving deeper into the backend, creating utility and productivity web apps that empower users. My ultimate goal? To become a full-stack developer, a master of both the front and back-end, wielding code with the finesse of a digital sculptor.
+
+But my life isn't all ones and zeros. When I'm not coding, I'm lost in a good book, catching up on the latest superhero sagas (MCU or DC, no bias here!), or indulging in the holy trinity of comfort food: pizza, burgers, and biryani.
                 </p>
             </div>
 
