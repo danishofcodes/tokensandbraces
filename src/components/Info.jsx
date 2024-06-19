@@ -82,17 +82,12 @@ export default function Info() {
             {/* ref={experienceRef}  */}
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
-                <p><b style={{ fontSize: "20px" }}>A dusty Pentium 3 in 2008</b> became my gateway to a digital wonderland. Sketching in MSPaint with colorful lines which were nothing but pixels in reality, and that facinated me, and of course pc games. Soon, I was tinkering on that clunky machine, sparking a lifelong fascination with the world of computers. 
-
-In school, I practically lived in the computer lab, often extending my stays by convincing teachers I was absorbed in learning — when really, I was immersed in building cool mini projects in Java with my teacher.
-
-Fast forward 6 years, and I'm a frontend developer, crafting user interfaces that are as sleek as they are functional. But my passion lies at the crossroads of design and engineering: building software that's beautiful on the outside and rock-solid within. 
-
-Currently, I'm delving deeper into the backend, creating utility and productivity web apps. 
-
-My ultimate goal? To become a full-stack developer, someone who can build beautiful frontend and and reliably-solid back-end, optimised for every kind of users. 
-
-But my life isn't all ones and zeros. When I'm not coding, I'm lost in a good book, catching up on the latest superhero sagas (MCU or DC, no bias here!), or indulging in the holy trinity of comfort food: pizza, burgers, and biryani. </p>
+                <p><b style={{ fontSize: "16px" }}>A PC with Pentium III in 2008</b> My dad's first computer opened a digital wonderland for me! I started with MSPaint, where pixels turned into art strokes. Then, hooked on the Demorash PC game, I dove into understanding how 1s and 0s create magic. 
+                Thanks to my awesome CS teacher, the school's computer lab became my second home. We churned out Java projects—calculators, calendars, you name it. It was fun.! Fast forward 5 years, and I'm a frontend developer, crafting user interfaces that are as sleek as they are functional. But  I enjoy the crossroads of design and engineering: building software that's beautiful on the outside and relaiably-solid within.
+                    <br/>
+                    <br/>
+                    <b style={{ fontSize: "16px" }}>Currently,</b> I'm delving deeper into the backend,Currently, I'm diving into backend development, creating utility-focused web apps as personal projects. My goal? Mastery in crafting stunning frontend and robust backend solutions for all users.
+                    Off-screen, I devour books, geek out over superhero sagas (MCU or DC, no bias!), and indulge in comfort food: pizza, burgers, and biryani.</p>
             </div>
 
             <hr className='mb-5' />
