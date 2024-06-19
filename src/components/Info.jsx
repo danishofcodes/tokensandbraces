@@ -82,7 +82,7 @@ export default function Info() {
             {/* ref={experienceRef}  */}
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
-                <p><b style={{ fontSize: "20px" }}>A dusty Pentium 3 in 2008</b>became my gateway to a digital wonderland. sketching in MSPaint colorful lines which were nothing but pixels uin reality, and that facinated me, and of course pc games. Soon, I was tinkering on that clunky machine, sparking a lifelong fascination with the world of computers. 
+                <p><b style={{ fontSize: "20px" }}>A dusty Pentium 3 in 2008</b> became my gateway to a digital wonderland. Sketching in MSPaint with colorful lines which were nothing but pixels in reality, and that facinated me, and of course pc games. Soon, I was tinkering on that clunky machine, sparking a lifelong fascination with the world of computers. 
 
 In school, I practically lived in the computer lab, often extending my stays by convincing teachers I was absorbed in learning — when really, I was immersed in building cool mini projects in Java with my teacher.
 
