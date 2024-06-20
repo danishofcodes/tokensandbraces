@@ -25,11 +25,11 @@ export default function MainSection({ projects, posts }) {
 
 
                 <div className='navPoints mt-3' >
-                    <ul className="lg:h-48 h-auto ">
+                    <ul className="lg:h-48 h-auto">
                         {/* ${aboutMeVisible ? 'active' : ''}` */}
                         {/* ${projectsVisible ? 'active' : ''}` className="font-bold text-base" */}
-                        <Link to="/" >  <li className={location.pathname === "/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
-                        <Link to="/Projects">    <li className={location.pathname === "/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />Projects</li></Link>
+                        <Link to="/" ><li className={location.pathname === "/" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faQuoteLeft} className='me-2' />About</li></Link>
+                        <Link to="/Projects"><li className={location.pathname === "/Projects" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faCodeFork} className='me-2' />Projects</li></Link>
                         {/* <Link to="/Ongoing"><li className={location.pathname === "/Ongoing" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faSpinner} className='me-2' />Ongoing</li></Link> */}
                         <Link to="/Pinned"><li className={location.pathname === "/Pinned" ? "active" : "font-bold text-base"} ><FontAwesomeIcon icon={faThumbTack} className='me-2' />Pinned </li></Link>
                     </ul>

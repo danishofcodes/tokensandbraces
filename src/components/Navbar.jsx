@@ -16,11 +16,11 @@ export default function Navbar() {
        <FontAwesomeIcon icon={faUserAstronaut} className='text-2xl '/> Welcome Buddy!
       </div>
       <div className="hidden  lg:flex items-center space-x-4">
-        <a href="https://github.com/danishofcodes" target="_blank" className="text-slate-700 dark:text-slate-200 text-sm leading-6 font-semibold lg:flex items-center hover:text-[#801DFF] "><FontAwesomeIcon icon={faGithub} style={{ fontSize: '25px' }} /></a>
+        <a href="https://github.com/danishofcodes" target="_blank" className="text-slate-700 dark:text-slate-200 text-sm leading-6 font-semibold lg:flex items-center hover:text-[#801DFF] "  alt="github-redirect"><FontAwesomeIcon icon={faGithub} style={{ fontSize: '25px' }} /></a>
         {/* <a href="#" className="text-slate-700 dark:text-slate-200 text-sm leading-6 font-semibold">Option 2</a>  bg-stone-200 px-2 py-2 rounded border-b-2 border-fuchsia-600*/}
-        <a href="https://www.linkedin.com/in/abdul-danish-38b5942a7" target="_blank" className="text-slate-700 dark:text-slate-200  leading-6 font-semibold flex text-xl hover:text-[#801DFF] "><FontAwesomeIcon icon={faLinkedin} className='' style={{ fontSize: '25px' }} /></a>
+        <a href="https://www.linkedin.com/in/abdul-danish-38b5942a7" target="_blank" className="text-slate-700 dark:text-slate-200  leading-6 font-semibold flex text-xl hover:text-[#801DFF] " alt="linkedin-redirect"><FontAwesomeIcon icon={faLinkedin} className='' style={{ fontSize: '25px' }} /></a>
 
-        <a href="mailto:heyabduldanish@gmail.com" target="_blank" className="text-slate-700 dark:text-slate-200  leading-6 font-semibold flex text-xl hover:text-[#801DFF] "><FontAwesomeIcon icon={faEnvelope} className='' style={{ fontSize: '25px' }} /></a>
+        <a href="mailto:heyabduldanish@gmail.com" target="_blank" className="text-slate-700 dark:text-slate-200  leading-6 font-semibold flex text-xl hover:text-[#801DFF] " alt="mail-redirect"><FontAwesomeIcon icon={faEnvelope} className='' style={{ fontSize: '25px' }} /></a>
 
       </div>
       <div className="lg:hidden" onClick={openCollapsibleNav}>
@@ -30,15 +30,15 @@ export default function Navbar() {
         <div className='flex justify-end items-center p-3'>
           <button className="h-10 w-10" onClick={openCollapsibleNav}><FontAwesomeIcon icon={faClose} style={{ fontSize: "35px" }} /></button>
         </div>
-        <a href="https://github.com/danishofcodes" target="_blank">
+        <a href="https://github.com/danishofcodes" target="_blank" alt="github-redirect">
         <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faGithub} style={{ fontSize: "30px" }} className='me-2' />Github</div>
           </a>
         <hr />
-        <a href="https://www.linkedin.com/in/abdul-danish-38b5942a7" target="_blank">
+        <a href="https://www.linkedin.com/in/abdul-danish-38b5942a7" target="_blank"  alt="linkedin-redirect">
         <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faLinkedin} style={{ fontSize: "25px" }} className='me-2' />LinkedIn</div>          
           </a>
         <hr />
-        <a href="mailto:heyabduldanish@gmail.com" target="_blank" >
+        <a href="mailto:heyabduldanish@gmail.com" target="_blank"  alt="mail-redirect">
         <div className='px-4 py-2 optSocial'><FontAwesomeIcon icon={faEnvelope} style={{ fontSize: "25px" }} className='me-2' />Email</div>
         </a>
       </div>
