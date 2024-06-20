@@ -82,13 +82,13 @@ export default function Info() {
             {/* ref={experienceRef}  */}
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
-                <p><b style={{ fontSize: "16px" }}>A PC with Pentium III in 2008</b> My dad's first computer opened a digital wonderland for me! I started with MSPaint, where pixels turned into art strokes. Then, hooked on the Demorash PC game, I dove into understanding how 1s and 0s create magic. 
-                Thanks to my awesome CS teacher, the school's computer lab became my second home. We made mini Java projects — calculators, calendars, quizzes you name it. It was fun! Fast forward 5 years, and I'm a frontend developer, crafting user interfaces that are as sleek as they are functional. But  I enjoy the crossroads of design and engineering: building software that's beautiful on the outside and relaiably-solid within.
+                <p><b style={{ fontSize: "16px" }}>A PC with Pentium III in 2008</b> My dad's first computer opened a digital wonderland for me! I started with MSPaint, where pixels turned into art strokes. Then, hooked with PC games, I dove into understanding how 1s and 0s create magic. 
+                Thanks CS teacher, the school's computer lab became my second home. We made mini Java projects — calculators, calendars, quizzes you name it. It was fun! Fast forward 5 years, and I'm a developer, crafting user interfaces that are as sleek as they are functional. But  I enjoy the crossroads of design and engineering: building software that's beautiful on the outside and relaiably-solid within.
                     <br/>
                     <br/>
-                    <b style={{ fontSize: "16px" }}>Currently,</b> I'm delving deeper into the backend, creating utility-focused web apps as personal projects. My goal? Mastery in crafting stunning frontend and robust backend solutions for all users.
+                    <b style={{ fontSize: "16px" }}>Currently,</b> I'm delving deeper into the backend, creating utility-focused web apps as personal projects. My goal? Mastery in crafting stunning frontend and robust backend for users of all types.
                     <br/>
-                    Off-screen, I devour books, geek out over superhero sagas (MCU or DC, no bias!), and indulge in comfort food: pizza, burgers, and biryani.</p>
+                    Btw, off-screen, I devour books, geek out over superhero sagas (Marvel or DC), and indulge in comfort food: pizza, burgers, and biryani.</p>
             </div>
 
             <hr className='mb-5' />
