@@ -13,7 +13,7 @@ export const projects = [
     },
 
     {
-      projectname: 'Forms And Validations ',
+      projectname: 'Forms And Validation',
       description: 'Signup form, Newsletter Form, Personal Data Form and Their Data Input and Validations Made With React JS, Formik, YUP',
       imgKey: faListCheck, // Replace with your image file name or URL
       githublink: 'https://github.com/danishofcodes/FormsAndValidation',
