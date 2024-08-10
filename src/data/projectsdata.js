@@ -4,6 +4,21 @@ import { faGamepad } from '@fortawesome/free-solid-svg-icons/faGamepad';
 import { faCalendarCheck, faCode, faKey, faListCheck, faLock, faPoll, faWind } from '@fortawesome/free-solid-svg-icons';
 export const projects = [
   
+  {
+    projectname: 'Dictionary App',
+    description: 'look up meanings, definitions, usage, and synonyms of the word that’s  tumbling in your head!',
+    imgKey: faBook, // Replace with your image file name or URL
+    githublink: 'https://github.com/danishofcodes/theDictionaryApp',
+    viewonbrowser: 'https://danishofcodes.github.io/theDictionaryApp/'
+  },
+
+  {
+    projectname: 'Linkvibes',
+    description: 'Seamlessly integrate all your social media and online platforms in one place with our link in bio landing page.',
+    imgKey: faLink, // Replace with your image file name or URL
+    githublink: 'https://github.com/danishofcodes/linkvibes',
+    viewonbrowser: 'https://danishofcodes.github.io/linkvibes/'
+  },
     {
       projectname: 'Survey Bubble',
       description: 'Create and manage feedback surveys with interactive feedback survey forms, Made with React JS And TailwindCSS. ',
