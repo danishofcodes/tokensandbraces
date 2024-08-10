@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import reactIcon from '../assets/react.svg'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons/faGamepad';
-import { faCalendarCheck, faCode, faKey, faListCheck, faLock, faPoll, faWind } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarCheck, faCode, faKey, faListCheck, faLock, faPoll, faWind , faBook, faLink} from '@fortawesome/free-solid-svg-icons';
 export const projects = [
   
   {

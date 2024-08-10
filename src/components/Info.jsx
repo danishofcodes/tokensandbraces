@@ -12,6 +12,7 @@ import npm from '../assets/icons/npm.png'
 import bootstrap from '../assets/icons/bootstrap.png'
 import tailwind from '../assets/icons/tailwind.png'
 import java from '../assets/icons/java2.png'
+import python from '../assets/icons/py.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -59,7 +60,7 @@ export default function Info() {
         },
         {
             name: 'Python',
-            icon: faPython
+            icon: python
         },
         {
             name: 'Tailwind',
