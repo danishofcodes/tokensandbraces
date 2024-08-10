@@ -15,6 +15,7 @@ import java from '../assets/icons/java2.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faPython } from '@fortawesome/free-brands-svg-icons'
 
 
 export default function Info() {
@@ -55,6 +56,10 @@ export default function Info() {
         {
             name: 'Java',
             icon: java
+        },
+        {
+            name: 'Python',
+            icon: faPython
         },
         {
             name: 'Tailwind',
