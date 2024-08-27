@@ -45,7 +45,7 @@ export const projects = [
 
     {
       projectname: 'Crypt My Texts',
-      description: 'Secure Your Messages: Encrypt & Decrypt Text easily with the help of "CryptMyTexts" helps you encrypt and decrypt texts, paragraphs or messages! Made With React JS and CryptJS',
+      description: 'Encrypt & Decrypt Text easily with the help of "CryptMyTexts" helps you encrypt and decrypt texts, paragraphs or messages! Made With React JS and CryptJS',
       imgKey: faKey, // Replace with your image file name or URL
       githublink: 'https://github.com/danishofcodes/CryptMyTexts',
       viewonbrowser: 'https://danishofcodes.github.io/CryptMyTexts/'
