@@ -35,7 +35,7 @@ export default function MainSection({ projects, posts }) {
                     </ul>
 
                     <div className="mt-1" >
-                        <a target="_blank" href="https://drive.google.com/file/d/1Rv2VkbFsK8bc8rrYWYOr36jSFam0tpl0/view?usp=drive_link"> <button className="bg-transparent hover:bg-green-500 text-indigo-600 font-semibold hover:text-white py-2 px-4 border border-indigo-600 hover:border-transparent rounded flex ">
+                        <a target="_blank" href="https://drive.google.com/file/d/1dhuc_e-vXJHz_B6N6FGlY2CsCnCIVxmz/view?usp=drive_link"> <button className="bg-transparent hover:bg-green-500 text-indigo-600 font-semibold hover:text-white py-2 px-4 border border-indigo-600 hover:border-transparent rounded flex ">
                             <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                             <span>Download Resume</span>
                         </button></a>
