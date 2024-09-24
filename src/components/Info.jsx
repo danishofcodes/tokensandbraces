@@ -89,7 +89,7 @@ export default function Info() {
             <div className='aboutmeSec mb-4 fadeUpanimate' id="allaboutme">
                 {/* {aboutMeVisible ? " yes" : "no"} */}
                 <p><b style={{ fontSize: "16px" }}>A PC with Pentium III in 2008</b> My dad's first computer opened a digital wonderland for me! I started with MSPaint, where pixels turned into art strokes. Then, hooked with PC games, I dove into understanding how 1s and 0s create magic. 
-                Now, I'm a developer, crafting user interfaces that are as sleek as they are functional.
+                Now, I am a developer creating interactive and optimized web experiences.
                     <br/>
                     <b style={{ fontSize: "16px" }}>Currently,</b> I'm delving deeper into the backend, creating utility-focused web apps as personal projects. My goal? Crafting stunning frontend and robust backend for users of all types.
                     <br/>
