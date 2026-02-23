@@ -37,13 +37,13 @@ export default function Navbar() {
 </nav>
         {/* Social Icons */}
         <div className="flex items-center gap-6">
-          <a href="https://github.com/YOUR_USERNAME" target="_blank" className="social-icon">
+          <a href="https://github.com/danishofcodes" target="_blank" className="social-icon">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" className="social-icon">
+          <a href="https://linkedin.com/in/danish-sheik" target="_blank" className="social-icon">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="mailto:your@email.com" className="social-icon">
+          <a href="mailto:danishfromwork@gmail.com" className="social-icon">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
@@ -65,19 +65,23 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col gap-6 text-lg font-medium">
-            <a href="/" className="nav-link">About</a>
+            <NavLink to="/" className="nav-link">About</NavLink>
+            <NavLink to="/pinboard" className="nav-link">Pin Board</NavLink>
+            {/* <NavLink to="/" className="nav-link">About</NavLink> */}
+
+            {/* <a href="/" className="nav-link">About</a> */}
             {/* <a href="/projects" className="nav-link">Projects</a> */}
-            <a href="/pinboard" className="nav-link">Pin Board</a>
-            <a href="/contact" className="nav-link">Contact</a>
+            {/* <a href="/pinboard" className="nav-link">Pin Board</a>
+            <a href="/contact" className="nav-link">Contact</a> */}
 
             <div className="flex gap-6 mt-6">
-              <a href="https://github.com/YOUR_USERNAME" className="social-icon">
+              <a href="https://github.com/danishofcodes" className="social-icon">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a href="https://linkedin.com/in/YOUR_USERNAME" className="social-icon">
+              <a href="https://linkedin.com/in/danish-sheik" className="social-icon">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="mailto:your@email.com" className="social-icon">
+              <a href="mailto:danishfromwork@gmail.com" className="social-icon">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </div>

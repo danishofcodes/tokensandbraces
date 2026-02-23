@@ -3,7 +3,7 @@ export default function ExperienceSection() {
     <section className="max-w-7xl mx-auto px-6 py-12">
       <h3 className="text-3xl font-bold mb-12">💼 Experience</h3>
 
-      <div className="relative border-l border-gray-200 pl-8 space-y-12">
+      <div className="relative border-l border-gray-200 pl-0 md:pl-8 space-y-12">
         {/* CODILAR */}
         <div className="relative">
           <span className="absolute -left-[9px] top-2 w-4 h-4 bg-violet-600 rounded-full"></span>
