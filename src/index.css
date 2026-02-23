@@ -12,6 +12,48 @@ body {
   scroll-behavior: smooth;
 }
 
+/*  */
+
+/* Nav links */
+.nav-link {
+  position: relative;
+  color: #334155;
+  transition: color 0.2s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #7c3aed;
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover {
+  color: #7c3aed;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Social icons */
+.social-icon {
+  font-size: 1.75rem;
+  color: #7c3aed;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px) scale(1.1);
+  filter: drop-shadow(0 4px 8px rgba(124, 58, 237, 0.35));
+}
+/*  */
+
+/* 
 .main-section {
   display: flex;
   margin: 10px auto;
@@ -61,7 +103,7 @@ body {
     height: auto;
     padding: 10px 30px;
   }
-}
+} */
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
@@ -143,7 +185,7 @@ body {
   height: 150px;
 
 }
-
+/* 
 .card-image {
   border-radius: 10px 0 0 10px;
   flex-shrink: 0;
@@ -181,33 +223,33 @@ body {
   .card {
     width: 100%;
   }
-
-  .navPoints ul li {
+ */
+  /* .navPoints ul li {
     display: inline-block;
     margin-bottom: 0;
     margin-right: 10px;
     background-color: #ddd;
     padding: 5px;
-  }
+  } */
 
-  .navPoints ul li:hover {
+  /* .navPoints ul li:hover {
     display: inline-block;
     margin-bottom: 0;
     padding: 5px !important;
-  }
-
+  } */
+/* 
   .navPoints ul li:active {
     cursor: pointer;
     background: color #801dff !important;
     ;
-    /* padding: 10px; */
+   
     border-radius: 2px;
     color: #ffffff;
     transform: scale(1.02);
     transition: 0.2s;
 
-  }
-
+  } */
+/* 
   .card {
     height: 300px;
     flex-direction: column;
@@ -225,12 +267,12 @@ body {
 
   .navPoints ul li {
     padding: 5px !important;
-  }
+  } */
 
-  .navPoints ul li:hover:not(:active) {
+  /* .navPoints ul li:hover:not(:active) {
     transform: none;
     transition: 0.2s;
-  }
+  } */
 
   /* .terminalgif {
     background-color: #3e3e3e;
@@ -239,27 +281,28 @@ body {
     border-radius: 7px;
     margin: 10px 0px;
   }
-   */
+   
 }
+  */
 
 /* img{
  height:  100px;
  padding: 10px;
 } */
-.navPoints ul li {
+/* .navPoints ul li {
   margin-bottom: 5px;
   padding-left: 15px;
-}
+} */
 
-.navPoints ul li:hover:not(:active) {
+/* .navPoints ul li:hover:not(:active) {
   cursor: pointer;
   border-radius: 2px;
   color: #801DFF;
   transition: 0.2s;
 
-}
+} */
 
-
+/* 
 .rise:hover {
   transform: scale(1.01);
   transition: transform ease-in-out 0.2;
@@ -270,16 +313,16 @@ body {
 .list li {
   list-style-type: circle;
   margin-bottom: 20px;
-}
-
+} */
+/* 
 .active {
   background: #801dff !important;
   padding: 10px;
   border-radius: 2px;
   color: #fff !important;
-}
+} */
 
-.overlayNav {
+/* .overlayNav {
   position: fixed;
   background: #f4f4f4;
   height: 100%;
@@ -321,8 +364,8 @@ body {
   border-bottom: 1px solid #bc89ff;
   border-style: dashed;
 
-}
-
+} */
+/* 
 .pill {
   background-color: #e7e7e7;
   color: #595959;
@@ -334,8 +377,8 @@ body {
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-}
-
+} */
+/* 
 .toolofchoice-card {
   padding: 4px 8px 4px 4px;
   margin: 2px;
@@ -381,4 +424,71 @@ body {
 
 .fadeUpanimate {
   animation: fadeUp 0.3s ease-in-out;
+}
+ */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+  font-weight: 500;
+  color: #374151;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+.pill img {
+  width: 20px;
+  height: 20px;
+}
+
+.pill:hover {
+  border-color: #7c3aed;
+  color: #7c3aed;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.pill-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1.1rem;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  transition: all 0.2s ease;
+}
+
+.pill-secondary:hover {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.pulse-glow {
+  box-shadow: 0 0 0 rgba(124, 58, 237, 0.6);
+  animation: pulseGlow 2.8s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow:
+      0 0 0 0 rgba(124, 58, 237, 0.6),
+      0 0 12px rgba(124, 58, 237, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 0 10px rgba(124, 58, 237, 0),
+      0 0 28px rgba(124, 58, 237, 0.8);
+  }
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(124, 58, 237, 0),
+      0 0 12px rgba(124, 58, 237, 0.4);
+  }
 }
