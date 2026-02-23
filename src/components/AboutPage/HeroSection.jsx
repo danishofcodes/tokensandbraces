@@ -30,7 +30,7 @@ export default function HeroSection() {
           React, Next.js, Node.js, and backend integrations.
         </p>
 
-        <div className="flex flex-wrap gap-1 md:gap-4">
+        <div className="flex flex-wrap gap-2 md:gap-4">
           {/* <a className="px-6 py-3 bg-violet-600 text-white rounded-lg font-medium hover:bg-violet-700 transition" href="/Danish_Resume_2026.pdf">
             Download Resume
           </a> */}
