@@ -19,14 +19,14 @@ const ProjectCard = ({ title, description, tech, demoLink, codeLink, featured })
           </div>
           <div className="flex gap-4">
             {demoLink && <a href={demoLink} className="text-violet-600 font-medium hover:underline">🔗 Live Demo</a>}
-            {codeLink && <a href={codeLink} className="text-gray-600 hover:underline">&lt;/&gt; Source Code</a>}
+            {/* {codeLink && <a href={codeLink} className="text-gray-600 hover:underline">&lt;/&gt; Source Code</a>} */}
           </div>
         </div>
-        {featured && (
+        {/* {featured && (
           <div className="w-32 h-20 bg-gradient-to-br from-violet-100 to-violet-200 rounded-lg flex items-center justify-center text-violet-500 text-sm font-medium">
             Preview
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

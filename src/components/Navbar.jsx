@@ -25,9 +25,9 @@ export default function Navbar() {
   <NavLink to="/" className="nav-link">
     About Me
   </NavLink>
-  {/* <NavLink to="/projects" className="nav-link">
+  <NavLink to="/projects" className="nav-link">
     Projects
-  </NavLink> */}
+  </NavLink>
   <NavLink to="/pinboard" className="nav-link">
     Pin Board
   </NavLink>
@@ -66,6 +66,7 @@ export default function Navbar() {
 
           <div className="flex flex-col gap-6 text-lg font-medium">
             <NavLink to="/" className="nav-link">About</NavLink>
+             <NavLink to="/projects" className="nav-link">Projects</NavLink>
             <NavLink to="/pinboard" className="nav-link">Pin Board</NavLink>
             {/* <NavLink to="/" className="nav-link">About</NavLink> */}
 
