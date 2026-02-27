@@ -65,9 +65,15 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col gap-6 text-lg font-medium">
-            <NavLink to="/" className="nav-link">About</NavLink>
-             <NavLink to="/projects" className="nav-link">Projects</NavLink>
-            <NavLink to="/pinboard" className="nav-link">Pin Board</NavLink>
+            <NavLink to="/" className="nav-link"
+             onClick={() => setOpen(false)}
+            >About</NavLink>
+             <NavLink to="/projects" className="nav-link"
+              onClick={() => setOpen(false)}
+             >Projects</NavLink>
+            <NavLink to="/pinboard" className="nav-link"
+             onClick={() => setOpen(false)}
+            >Pin Board</NavLink>
             {/* <NavLink to="/" className="nav-link">About</NavLink> */}
 
             {/* <a href="/" className="nav-link">About</a> */}
