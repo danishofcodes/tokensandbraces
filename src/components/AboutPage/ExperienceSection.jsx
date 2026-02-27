@@ -95,7 +95,7 @@ export default function ExperienceSection() {
                   Web Developer
                 </p>
               </div>
-              <span className="text-sm text-gray-500">Dec 2022 — Dec 2024</span>
+              <span className="text-sm text-gray-500">Dec 2022 — Oct 2024</span>
             </div>
 
             <p className="text-gray-600 mb-6">
