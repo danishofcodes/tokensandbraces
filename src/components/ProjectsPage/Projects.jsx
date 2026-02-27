@@ -32,6 +32,58 @@ const featuredProjects = [
   },
 ];
 
+const clientProjects = [
+  {
+    title: "Alboom Marine",
+    description:
+      "Shopify-based marine industry store built with custom theme modifications, structured collections, and optimized conversion-focused layout.",
+    tech: [
+      { name: "Shopify" },
+      { name: "Liquid" },
+      { name: "Custom Theme Development" },
+    ],
+    demoLink: "#",
+    featured: true,
+  },
+  {
+    title: "GulfFruits.com",
+    description:
+      "International fruit export Shopify store with custom product categorization, inquiry workflows, and conversion-optimized UI.",
+    tech: [
+      { name: "Shopify" },
+      { name: "Liquid" },
+      { name: "E-commerce Optimization" },
+    ],
+    demoLink: "#",
+    featured: true,
+  },
+  {
+    title: "LionsBot B2B Multi-Store (Asia, USA, Europe)",
+    description:
+      "Multi-region Shopify architecture managing separate storefronts for Asia, USA, and Europe with region-based pricing, localization, and B2B structure.",
+    tech: [
+      { name: "Shopify" },
+      { name: "Multi-store Architecture" },
+      { name: "B2B Setup" },
+      { name: "Theme Customization" },
+    ],
+    demoLink: "#",
+    featured: true,
+  },
+  {
+    title: "Mechanic Super Store USA",
+    description:
+      "High-volume Shopify automotive store with advanced filtering, structured collections, and optimized checkout experience.",
+    tech: [
+      { name: "Shopify" },
+      { name: "Liquid" },
+      { name: "Performance Optimization" },
+    ],
+    demoLink: "#",
+    featured: false,
+  },
+];
+
 const otherProjects = [
   {
     title: "WordPlay",
@@ -73,12 +125,15 @@ const otherProjects = [
     featured: false,
   },
 ];
+
+
   return (
     <div>
 
          <ProjectSection title="Featured Projects" projects={featuredProjects} />
+      <ProjectSection title={"Client Projects"} projects={clientProjects}/>
       <ProjectSection title="Other Projects" projects={otherProjects} />
-
+   
     </div>
   )
 }
