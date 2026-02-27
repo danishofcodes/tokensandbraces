@@ -19,7 +19,7 @@ export default function HeroSection() {
         </p>
 
         <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-          Full-Stack JavaScript Developer building{" "}
+          Full-Stack Developer building{" "}
           <span className="text-violet-600">scalable</span> &{" "}
           <span className="text-violet-600">high-performance</span> web apps
         </h2>
