@@ -133,9 +133,10 @@ const otherProjects = [
   return (
     <div>
 
-         <ProjectSection title="Featured Projects" projects={featuredProjects} />
-      <ProjectSection title={"Client Projects"} projects={clientProjects}/>
-      <ProjectSection title="Other Projects" projects={otherProjects} />
+        
+         <ProjectSection title="Featured Projects" projects={featuredProjects} subheading={"My favorite apps made by me"} />
+      <ProjectSection title={"Client Projects"} projects={clientProjects} subheading={"Client Projects and products I designed, built, and shipped. "} />
+      <ProjectSection title="Other Projects" projects={otherProjects} subheading={"A selection of things I’ve built — from experiments to production-ready apps."}/>
    
     </div>
   )

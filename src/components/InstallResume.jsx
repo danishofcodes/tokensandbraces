@@ -35,7 +35,7 @@ const RESUME_URL = "/Danish_Resume_2026.pdf";
           onKeyDown={handleKeyDown}
           className="bg-transparent outline-none text-green-400 w-full"
           placeholder="install resume"
-          autoFocus
+          // autoFocus
         />
       </div>
 
