@@ -33,18 +33,7 @@ const featuredProjects = [
 ];
 
 const clientProjects = [
-  {
-    title: "Alboom Marine",
-    description:
-      "Shopify-based marine industry store built with custom theme modifications, structured collections, and optimized conversion-focused layout.",
-    tech: [
-      { name: "Shopify" },
-      { name: "Liquid" },
-      { name: "Custom Theme Development" },
-    ],
-    demoLink: "#",
-    featured: true,
-  },
+
   {
     title: "GulfFruits.com",
     description:
@@ -57,6 +46,7 @@ const clientProjects = [
     demoLink: "#",
     featured: true,
   },
+  
   {
     title: "LionsBot B2B Multi-Store (Asia, USA, Europe)",
     description:
@@ -70,7 +60,7 @@ const clientProjects = [
     demoLink: "#",
     featured: true,
   },
-  {
+{
     title: "Mechanic Super Store USA",
     description:
       "High-volume Shopify automotive store with advanced filtering, structured collections, and optimized checkout experience.",
@@ -81,7 +71,20 @@ const clientProjects = [
     ],
     demoLink: "#",
     featured: false,
-  },
+  }
+  // {
+  //   title: "Alboom Marine",
+  //   description:
+  //     "Shopify-based marine industry store built with custom theme modifications, structured collections, and optimized conversion-focused layout.",
+  //   tech: [
+  //     { name: "Shopify" },
+  //     { name: "Liquid" },
+  //     { name: "Custom Theme Development" },
+  //   ],
+  //   demoLink: "#",
+  //   featured: true,
+  // }
+  
 ];
 
 const otherProjects = [
