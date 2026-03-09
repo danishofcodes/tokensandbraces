@@ -13,7 +13,7 @@ const featuredProjects = [
     ],
     demoLink: "#",
     codeLink: "#",
-    featured: false,
+    featured: true,
   },
   {
     title: "LinkedIn Optimizer AI",
@@ -60,7 +60,7 @@ const clientProjects = [
       { name: "Optimization" },
     ],
     demoLink: "https://gulffruits.com/",
-    featured: true,
+    featured: false,
   },
   
   {
@@ -77,7 +77,7 @@ const clientProjects = [
       { name: "Theme Customization" },
     ],
     demoLink: "https://www.lionsbot.com/",
-    featured: true,
+    featured: false,
   },
 {
     title: "Mechanic Super Store USA",
