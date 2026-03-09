@@ -55,9 +55,11 @@ const clientProjects = [
     tech: [
       { name: "Shopify" },
       { name: "Theme Customization" },
-      { name: "Liquid" },
-      { name: "Feature additions to Cart and Checkout Page" },
+      { name: "Liquid Customizations" },
+      { name: "Cart and Checkout Delivery Customization" },
+      { name: "B2C" },
       { name: "Optimization" },
+
     ],
     demoLink: "https://gulffruits.com/",
     featured: false,
@@ -74,7 +76,7 @@ const clientProjects = [
       { name: "Liquid" },
       { name: "Multi-store Architecture" },
       { name: "B2B Setup" },
-      { name: "Theme Customization" },
+      // { name: "Theme Customization" },
     ],
     demoLink: "https://www.lionsbot.com/",
     featured: false,
