@@ -2,6 +2,19 @@ import ProjectSection from './ProjectSection';
 
 export default function Projects() {
 const featuredProjects = [
+   {
+    title: "Movies Review",
+    description:
+      "A movie review blog platform where users can upload reviews, rate movies with stars, and subscribe for email notifications on new posts.",
+    tech: [
+      { name: "Next.js", secondary: true },
+      { name: "PostgreSQL", secondary: true },
+      { name: "Nodemailer", secondary: true },
+    ],
+    demoLink: "#",
+    codeLink: "#",
+    featured: false,
+  },
   {
     title: "LinkedIn Optimizer AI",
     description:
@@ -113,23 +126,11 @@ const otherProjects = [
       { name: "JavaScript", secondary: true },
       { name: "CSS", secondary: true },
     ],
-    demoLink: "#",
-    codeLink: "#",
-    featured: false,
-  },
-  {
-    title: "Movies Review",
-    description:
-      "A movie review blog platform where users can upload reviews, rate movies with stars, and subscribe for email notifications on new posts.",
-    tech: [
-      { name: "Next.js", secondary: true },
-      { name: "PostgreSQL", secondary: true },
-      { name: "Nodemailer", secondary: true },
-    ],
     demoLink: "https://wordboxgame.netlify.app/",
     codeLink: "#",
     featured: false,
   },
+ 
   {
     title: "Todo App",
     description:
