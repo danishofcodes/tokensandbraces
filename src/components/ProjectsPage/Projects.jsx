@@ -5,7 +5,7 @@ const featuredProjects = [
   {
     title: "LinkedIn Optimizer AI",
     description:
-      "AI-powered LinkedIn profile optimizer that generates high-converting headlines, About sections, skill tags, and actionable optimization tips using Gemini API.",
+      "AI-powered LinkedIn profile optimizer that generates high-converting headlines, About sections, skill tags, and actionable optimization tips.",
     tech: [
       { name: "Next.js" },
       { name: "TypeScript" },
@@ -32,6 +32,7 @@ const featuredProjects = [
   },
 ];
 
+
 const clientProjects = [
 
   {
@@ -40,10 +41,12 @@ const clientProjects = [
       "International fruit export Shopify store with custom product categorization, inquiry workflows, and conversion-optimized UI.",
     tech: [
       { name: "Shopify" },
+      { name: "Theme Customization" },
       { name: "Liquid" },
-      { name: "E-commerce Optimization" },
+      { name: "Feature additions to Cart and Checkout Page" },
+      { name: "Optimization" },
     ],
-    demoLink: "#",
+    demoLink: "https://gulffruits.com/",
     featured: true,
   },
   
@@ -53,11 +56,14 @@ const clientProjects = [
       "Multi-region Shopify architecture managing separate storefronts for Asia, USA, and Europe with region-based pricing, localization, and B2B structure.",
     tech: [
       { name: "Shopify" },
+      { name: "Shopify Plus" },
+      { name: "Theme Customization" },
+      { name: "Liquid" },
       { name: "Multi-store Architecture" },
       { name: "B2B Setup" },
       { name: "Theme Customization" },
     ],
-    demoLink: "#",
+    demoLink: "https://www.lionsbot.com/",
     featured: true,
   },
 {
@@ -69,9 +75,19 @@ const clientProjects = [
       { name: "Liquid" },
       { name: "Performance Optimization" },
     ],
-    demoLink: "#",
+    demoLink: "https://mechanicsuperstore.com/",
     featured: false,
   }
+
+  
+
+
+  
+
+
+
+
+
   // {
   //   title: "Alboom Marine",
   //   description:
@@ -81,7 +97,7 @@ const clientProjects = [
   //     { name: "Liquid" },
   //     { name: "Custom Theme Development" },
   //   ],
-  //   demoLink: "#",
+  //   demoLink: "https://gulffruits.com/",
   //   featured: true,
   // }
   
@@ -89,7 +105,7 @@ const clientProjects = [
 
 const otherProjects = [
   {
-    title: "WordPlay",
+    title: "Wordbox",
     description:
       "A Wordle-inspired word guessing game with dynamic hints, keyboard tracking, and game state management.",
     tech: [
@@ -110,12 +126,12 @@ const otherProjects = [
       { name: "PostgreSQL", secondary: true },
       { name: "Nodemailer", secondary: true },
     ],
-    demoLink: "#",
+    demoLink: "https://wordboxgame.netlify.app/",
     codeLink: "#",
     featured: false,
   },
   {
-    title: "TodoContext",
+    title: "Todo App",
     description:
       "A lightweight todo app using React Context API and LocalStorage for persistent state management across sessions.",
     tech: [
@@ -123,7 +139,7 @@ const otherProjects = [
       { name: "Context API", secondary: true },
       { name: "LocalStorage", secondary: true },
     ],
-    demoLink: "#",
+    demoLink: "https://flotodo.netlify.app/",
     codeLink: "#",
     featured: false,
   },
